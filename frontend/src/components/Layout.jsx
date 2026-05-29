@@ -12,6 +12,9 @@ export default function Layout() {
     return false;
   });
 
+
+
+  
   useEffect(() => {
     const html = document.documentElement;
     if (darkMode) {
